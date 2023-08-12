@@ -30,10 +30,10 @@
   * **jdk8-centos**: `Oracle Java SE Development Kit 8 update 381` on top of **CentOS**
   * **jdk8-debian**: `Oracle Java SE Development Kit 8 update 381` on top of **Debian**
   * **jdk8-ubuntu**: `Oracle Java SE Development Kit 8 update 381` on top of **Ubuntu**
-  * **jre8-alpine**: `Oracle Java SE Runtime Environment 8 update 381` on top of **Alpine Linux**
-  * **jre8-centos**: `Oracle Java SE Runtime Environment 8 update 381` on top of **CentOS**
-  * **jre8-debian**: `Oracle Java SE Runtime Environment 8 update 381` on top of **Debian**
-  * **jre8-ubuntu**: `Oracle Java SE Runtime Environment 8 update 381` on top of **Ubuntu**
+  * **jre8-alpine**: `Oracle Java SE Runtime Environment 8 update 371` on top of **Alpine Linux**
+  * **jre8-centos**: `Oracle Java SE Runtime Environment 8 update 371` on top of **CentOS**
+  * **jre8-debian**: `Oracle Java SE Runtime Environment 8 update 371` on top of **Debian**
+  * **jre8-ubuntu**: `Oracle Java SE Runtime Environment 8 update 371` on top of **Ubuntu**
 
 
 ## 5.镜像版本
