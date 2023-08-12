@@ -34,22 +34,26 @@
 `registry.cn-shenzhen.aliyuncs.com/a852203465/java` provides several tagged images
 
 * JAVA 8
-  * **alpine-jdk8-1.0**: `Oracle Java SE Development Kit 8 update 381` on top of **Alpine Linux**
-  * **centos-jdk8-1.0**: `Oracle Java SE Development Kit 8 update 381` on top of **CentOS**
-  * **debian-jdk8-1.0**: `Oracle Java SE Development Kit 8 update 381` on top of **Debian**
-  * **ubuntu-jdk8-1.0**: `Oracle Java SE Development Kit 8 update 381` on top of **Ubuntu**
-  * **alpine-jre8-1.0**: `Oracle Java SE Runtime Environment 8 update 381` on top of **Alpine Linux**
-  * **centos-jre8-1.0**: `Oracle Java SE Runtime Environment 8 update 381` on top of **CentOS**
-  * **debian-jre8-1.0**: `Oracle Java SE Runtime Environment 8 update 381` on top of **Debian**
-  * **ubuntu-jre8-1.0**: `Oracle Java SE Runtime Environment 8 update 381` on top of **Ubuntu**
+  * **jdk8-alpine-1.0**: `Oracle Java SE Development Kit 8 update 381` on top of **Alpine Linux**
+  * **jdk8-centos-1.0**: `Oracle Java SE Development Kit 8 update 381` on top of **CentOS**
+  * **jdk8-debian-1.0**: `Oracle Java SE Development Kit 8 update 381` on top of **Debian**
+  * **jdk8-ubuntu-1.0**: `Oracle Java SE Development Kit 8 update 381` on top of **Ubuntu**
+  * **jre8-alpine-1.0**: `Oracle Java SE Runtime Environment 8 update 381` on top of **Alpine Linux**
+  * **jre8-centos-1.0**: `Oracle Java SE Runtime Environment 8 update 381` on top of **CentOS**
+  * **jre8-debian-1.0**: `Oracle Java SE Runtime Environment 8 update 381` on top of **Debian**
+  * **jre8-ubuntu-1.0**: `Oracle Java SE Runtime Environment 8 update 381` on top of **Ubuntu**
 
 * JAVA 11
-  * **alpine-jdk11-1.0**: `Oracle Java SE Development Kit 11.0.20` on top of **Alpine Linux**
-  * **centos-jdk11-1.0**: `Oracle Java SE Development Kit 11.0.20` on top of **CentOS**
-  * **debian-jdk11-1.0**: `Oracle Java SE Development Kit 11.0.20` on top of **Debian**
-  * **ubuntu-jdk11-1.0**: `Oracle Java SE Development Kit 11.0.20` on top of **Ubuntu**
+  * **jdk11-alpine-1.0**: `Oracle Java SE Development Kit 11.0.20` on top of **Alpine Linux**
+  * **jdk11-centos-1.0**: `Oracle Java SE Development Kit 11.0.20` on top of **CentOS**
+  * **jdk11-debian-1.0**: `Oracle Java SE Development Kit 11.0.20` on top of **Debian**
+  * **jdk11-ubuntu-1.0**: `Oracle Java SE Development Kit 11.0.20` on top of **Ubuntu**
 
-
+* JAVA 17
+  * **jdk17-alpine-1.0**: `Oracle Java SE Development Kit 17.0.8` on top of **Alpine Linux**
+  * **jdk17-centos-1.0**: `Oracle Java SE Development Kit 17.0.8` on top of **CentOS**
+  * **jdk17-debian-1.0**: `Oracle Java SE Development Kit 17.0.8` on top of **Debian**
+  * **jdk17-ubuntu-1.0**: `Oracle Java SE Development Kit 17.0.8` on top of **Ubuntu**
 
 
 
