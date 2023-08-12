@@ -1,6 +1,6 @@
 #!/bin/bash
 
-docker build -t registry.cn-shenzhen.aliyuncs.com/a852203465/centos-jdk8:v1.0 .
+docker build -t registry.cn-shenzhen.aliyuncs.com/a852203465/java:jdk8-centos-1.0 .
 
 
 
