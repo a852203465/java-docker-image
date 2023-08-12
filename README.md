@@ -49,7 +49,11 @@
   * **jdk11-debian-1.0**: `Oracle Java SE Development Kit 11.0.20` on top of **Debian**
   * **jdk11-ubuntu-1.0**: `Oracle Java SE Development Kit 11.0.20` on top of **Ubuntu**
 
-
+* JAVA 17
+  * **jdk17-alpine-1.0**: `Oracle Java SE Development Kit 17.0.8` on top of **Alpine Linux**
+  * **jdk17-centos-1.0**: `Oracle Java SE Development Kit 17.0.8` on top of **CentOS**
+  * **jdk17-debian-1.0**: `Oracle Java SE Development Kit 17.0.8` on top of **Debian**
+  * **jdk17-ubuntu-1.0**: `Oracle Java SE Development Kit 17.0.8` on top of **Ubuntu**
 
 
 
