@@ -22,19 +22,19 @@
     * `java11` - Java 11
     * `java8` - Java 8
 
- - alpine: 以`alpine:15`为基础镜像制作
- - debian: 以`debian:11`为基础镜像制作
- - centos: 以`centos:7`为基础镜像制作
- - ubuntu: 以`ubuntu:22.04`为基础镜像制作
- - -jdk: 包含JDK完整环境
- - -jre: 仅JRE运行环境
+- alpine: 以`alpine:15`为基础镜像制作
+- debian: 以`debian:11`为基础镜像制作
+- centos: 以`centos:7`为基础镜像制作
+- ubuntu: 以`ubuntu:22.04`为基础镜像制作
+- -jdk: 包含JDK完整环境
+- -jre: 仅JRE运行环境
 
 ## 4.关于Alpine Linux镜像启动JAVA应用
 此时JAVA应用的PID为1，此时无法通过jmap和jinfo查看JVM相关信息
 ### 4.1背景
- - PID 1~5是Linux的特殊进程
- - PID为1的进程结束后，容器会随之结束，这样可以通过宿主机监控，保证及时检测到容器的异常退出
- - docker正常关闭时，PID为1的进程能够接收到关闭信号，从而保证实现优雅关闭
+- PID 1~5是Linux的特殊进程
+- PID为1的进程结束后，容器会随之结束，这样可以通过宿主机监控，保证及时检测到容器的异常退出
+- docker正常关闭时，PID为1的进程能够接收到关闭信号，从而保证实现优雅关闭
 
 * PID 1~5是Linux的特殊进程
   * pid=1: init进程，系统启动的第一个用户级进程，是其他所有进程的父进程，引导用户空间服务
@@ -44,8 +44,8 @@
   * pid=5: watchdog，看门狗进程，用于监听内核异常，当系统出现宕机时，可利用watchdog记录宕机时堆栈信息
 
 ### 4.2解决方法
- - 开子线程方式
- - 使用 `tini`
+- 开子线程方式
+- 使用 `tini`
 
 #### 4.2.1使用 `tini`
 alpine镜像中已安装, 直接使用即可
